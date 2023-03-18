@@ -1,0 +1,48 @@
+---------------------------------------------------------------------------------------------------------------------
+
+* AWS Notes *
+
+----------------------------------------------------------------------------------------------------------------------
+
+* AWS Regions and Availability Zones *
+
+----------------------------------------------------------------------------------------------------------------------
+# AWS Regions:
+
+An AWS regions is a cluster of data centers, each of them has their own name and they are spread all over the world.
+
+Note : While choosing a region make sure that the service which is required is available within that particular region.
+
+Note : Pricing also varies from region to region
+
+# AWS Availability Zones:
+
+Each Region consist of availability zones (Usually 3, min 2, max 6)
+
+Each availability zone consists of one or more than one data centers with redundant power, networking and connectivity.
+
+# AWS Point of Presence (Edge Locations):
+
+It helps to deliver content to users with lower latency
+
+------------------------------------------------------------------------------------------------------------------------
+
+* Identity and Access Management (IAM) *
+
+------------------------------------------------------------------------------------------------------------------------
+# IAM is a global aws service
+
+# IAM is used to create users within the organization, which then can be grouped.
+
+# Groups can only contain users and not other groups
+
+# User don't have to belong to a group and a single user can belong to multiple groups
+
+# Users and groups are created so that they can be assigned permissions.
+
+# They can be assigned JSON Documents called as policies. These JSON Documents or policies contains the permissions assigned to the users or groups.
+
+
+
+
+
